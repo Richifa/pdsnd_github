@@ -190,7 +190,7 @@ def user_stats(df):
     except KeyError:
       print("\nGender Types:\nNo data available for this month.")
 
-    # TO DO: Display earliest, most recent, and most common year of birth
+    # TO DO: Display earliest, most recents, and most common year of birth
 
     try:
       Earliest_Year = df['Birth Year'].min()
